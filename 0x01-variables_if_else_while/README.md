@@ -7,7 +7,7 @@ Here's a brief overview of the files in this directory:
 2-print_alphabet.c: This program prints the lowercase alphabet using a while loop.
 3-print_alphabets.c: This program prints both the lowercase and uppercase alphabets using nested while loops.
 4-print_alphabet.c: This program prints the lowercase alphabets, except for q and e.
-5-more_numbers.c: This program prints the numbers from 0 to 14 ten times using nested loops.
+5-print_numbers.c: This program prints all the numbers of base 10 starting from 0.
 6-print_line.c: This program prints a straight line of n underscores, where n is passed as an argument.
 7-print_diagonal.c: This program prints a diagonal line of n backslashes, where n is passed as an argument.
 8-print_square.c: This program prints a square of n size, where n is passed as an argument.
