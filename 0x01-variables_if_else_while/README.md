@@ -23,4 +23,10 @@ Here's a brief overview of the files in this directory:
 
 9-print_comb.c: This file contains C code that prints all possible combinations of three different digits in ascending order to the standard output, separated by commas and spaces. The combinations are printed using the putchar function.
 
+100-print_comb3.c: This file contains C code that prints all possible combinations of two different digits in ascending order, without repeating any combination, using the putchar function. Each combination is separated by a comma and a space.
+
+101-print_comb4.c: This file contains C code that prints all possible combinations of three different digits in ascending order, without repeating any combination, using the putchar function. Each combination is separated by a comma and a space.
+
+102-print_comb5.c: This file contains C code that prints all possible combinations of two different two-digit numbers in ascending order, without repeating any combination, using the putchar function. Each combination is separated by a comma and a space.
+
 Feel free to use these files as a starting point for your own C programming projects or as a reference for understanding how variables, if/else statements, and while loops work in C
