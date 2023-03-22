@@ -11,7 +11,7 @@ int main(void)
 
 	printf("%u, %u", a, b);
 
-	for (i = 2; i < 98; i++)
+	for (i = 2; a + b < 4000000; i++)
 	{
 		c = a + b;
 		printf(", %u", c);
