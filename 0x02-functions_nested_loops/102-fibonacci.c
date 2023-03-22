@@ -10,20 +10,17 @@ int main(void)
 	int i;
 	unsigned long int t1, t2, nextTerm;
 
-	t1 = 0;
-	t2 = 1;
-	
-	for (i = 1; i <= 50; i++)
-	{
-		printf("%lu", t2);
+	t1 = 1;
+	t2 = 2;
 
-		if (i != 50)
-		{
-			printf(", ");
-		}
+	printf("%lu, %lu", t1, t2);
+
+	for (i = 3; i <= 50; i++)
+	{
 		nextTerm = t1 + t2;
 		t1 = t2;
 		t2 = nextTerm;
+		printf(", %lu", nextTerm);
 	}
 	printf("\n");
 	return (0);
