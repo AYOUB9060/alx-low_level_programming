@@ -7,21 +7,22 @@
 
 int main(void)
 {
-	unsigned long int prev = 1, curr = 2, sum = 0;
+	unsigned long t1 = 0, t2 = 1, sum;
+	float totalSum;
 
-	while (curr <= 4000000)
+	while(1)
 	{
-		if (curr % 2 == 0)
-		{
-			sum += curr;
-		}
-		unsigned long int next ;
-		
-		next = prev + curr;
+		sum = t1 + t2;
 
-		prev = curr;
-		curr = next;
+		if ( sum > 4000000)
+			break;
+
+		if ((sum % 2) == 0)
+		       totalSum += sum;
+		t1 = t2;
+		t2 = sum;	
 	}
-	printf("%lu\n", sum);
+	printf("%.0f\n", totalSum);
+
 	return (0);
 }
