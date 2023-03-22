@@ -15,7 +15,9 @@ int main(void)
 		{
 			sum += curr;
 		}
-		unsigned long int next = prev + curr;
+		unsigned long int next ;
+		
+		next = prev + curr;
 
 		prev = curr;
 		curr = next;
