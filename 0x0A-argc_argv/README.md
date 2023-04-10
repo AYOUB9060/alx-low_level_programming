@@ -4,7 +4,7 @@ This directory contains C programs that make use of command line arguments throu
 
 ## Files
 
-* 0-whatsmyname.c: a program that prints its own name.
+* **0-whatsmyname.c:** a program that prints its own name.
 * **1-args.c:** a program that prints the number of arguments passed into it.
 * **2-args.c:** a program that prints all arguments it receives.
 * **3-mul.c:** a program that multiplies two numbers.
